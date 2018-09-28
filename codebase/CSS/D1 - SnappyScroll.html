@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D1 - Snappy Scroll</title>
+    <style>
+        body {
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            margin: 0;
+        }
+
+        h1 {
+            background-color: #000000;
+            margin: 0;
+        }
+
+        .title {
+            height: 100vh;
+            text-align: center;
+            scroll-snap-align: start;
+            color: white;
+            align-content: center;
+        }
+
+        .one {
+            background: tomato;
+        }
+
+        .two {
+            background: seagreen;
+        }
+
+        .three {
+            background: darkkhaki;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title one">
+        <h1>Screen 1</h1>
+    </div>
+    <div class="title two">
+        <h1>Screen 2</h1>
+    </div>
+    <div class="title three">
+        <h1>Screen 3</h1>
+    </div>
+</body>
+
+</html>
