@@ -4,7 +4,7 @@
 ### *I will code every day for the next 100 days.*
 
 #### Start Date
-Sep 28th, 2018. 
+**Sep 28th, 2018.**
 
 ## Additional Rules
 1. I will tweet about my progress every day -> using the hashtag #100DaysOfCode
