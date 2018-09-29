@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weird Vertical Padding</title>
+
+    <style>
+        .container {
+            width: 250px;
+            height: 600px;
+            background-color: gray;
+        }
+
+        .p1 {
+            width: 100%;
+            padding-top: 100%;
+            background-color: tomato;
+            color: white;
+        }
+
+        .p2 {
+            width: 50%;
+            padding-top: 50%;
+            background-color: blanchedalmond;
+        }
+
+        div {
+            position: relative;
+        }
+
+        p {
+            position: absolute;
+            bottom: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="p1">
+            <p>paddingTop: 100 <br> width: 100%</p>
+
+        </div>
+        <div class="p2">
+            <p>paddingTop: 50% <br> width: 50%</p>
+        </div>
+    </div>
+</body>
+
+</html>
