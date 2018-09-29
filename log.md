@@ -9,5 +9,7 @@
 
 ![Gif of D1_SnapScroll](./codebase/CSS/screenshots/d1-scroll_snap.gif)
 
-**Link to work:** [MDN - CSS Scroll_Snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
+**Link to work:** 
+<br> [MDN - CSS Scroll_Snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
+<br> [Check the browsers support version](https://caniuse.com/#search=scroll-snap)
 
