@@ -10,7 +10,7 @@
 ![Gif of D1_SnapScroll](./codebase/CSS/screenshots/d1-scroll_snap.gif)
 
 **Link to work:** 
-<br> [Project - D1](./CSS/D1-SnappyScroll.html)
+<br> [D1 - Snappy Scroll](./CSS/D1-SnappyScroll.html)
 <br> [MDN - CSS Scroll_Snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
 <br> [Check the browsers support version](https://caniuse.com/#search=scroll-snap)
 
@@ -22,7 +22,7 @@
 **Thoughts:** Vertical padding is relative to element's width not height. For example, `padding-top: 50%;` does not add 50% of the original *height* of the element as padding, but 50% of the *width* of the *parent* element
 
 
-**Link to work:** [Project - D2](./codebase/CSS/D2-VerticalPadding.html)
+**Link to work:** [D2 - Vertical Padding](./codebase/CSS/D2-VerticalPadding.html)
 
 
 ### Day 3: Sep 30, 2018
@@ -33,3 +33,14 @@
 
 **Link to work:** [D3 - Simple List](./codebase/Flutter/simplelist)
 
+
+### Day 4: Oct 2, 2018
+
+**Today's Progress:** Implemented a list item widget by following the Flutter tutorial.
+
+**Thoughts:** I'm starting to take the official Flutter courses on Udacity today. I accomplished the quiz and I preliminarily understand the concept of "almost everything is a widget". I also learnt some of the Dart syntax, such as construction.
+
+**Link to work:** 
+<br> [D4 - Category Widget](./codebase/Flutter/task_02_category_widget)
+<br> [Flutter tutorial - Udacity](https://classroom.udacity.com/courses/ud905)
+<br> [Dart - Sample Code](https://www.dartlang.org/samples)
