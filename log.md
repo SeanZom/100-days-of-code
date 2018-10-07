@@ -44,3 +44,14 @@
 <br> [D4 - Category Widget](./codebase/Flutter/task_02_category_widget)
 <br> [Flutter tutorial - Udacity](https://classroom.udacity.com/courses/ud905)
 <br> [Dart - Sample Code](https://www.dartlang.org/samples)
+
+
+### Day 5: Oct 7, 2018
+
+**Today's Progress:** Coded the menu list and navigator by following the tutorial. Learnt the basic syntax of Dart.
+
+**Thoughts:**  
+
+**Link to work:** 
+<br> [D5 - Category Route](./codebase/Flutter/task_03_category_route)
+<br> [D5 - Navigation](./codebase/Flutter/task_04_navigation)
