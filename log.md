@@ -50,8 +50,13 @@
 
 **Today's Progress:** Coded the menu list and navigator by following the tutorial. Learnt the basic syntax of Dart.
 
-**Thoughts:**  
-
 **Link to work:** 
 <br> [D5 - Category Route](./codebase/Flutter/task_03_category_route)
 <br> [D5 - Navigation](./codebase/Flutter/task_04_navigation)
+
+
+### Day 6: Oct 8, 2018
+
+**Today's Progress:** Finished the quiz of tutorial, to convert the stateless widgets to stateful widgets. Learned the Dart syntax about list and generic.
+
+**Link to work:** [D6 - Stateful Widget](./codebase/Flutter/task_05_stateful_widgets)
