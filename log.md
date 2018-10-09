@@ -60,3 +60,11 @@
 **Today's Progress:** Finished the quiz of tutorial, to convert the stateless widgets to stateful widgets. Learned the Dart syntax about list and generic.
 
 **Link to work:** [D6 - Stateful Widget](./codebase/Flutter/task_05_stateful_widgets)
+
+### Day 7: Oct 9, 2018
+
+**Today's Progress:** Dived into the Stateless Widgets. Re-wrote the example of official Flutter. Afterward, I found an wonderful UI prototype on the Uplabs, and attempted to mock it using Flutter.
+
+**Link to work:**
+<br> [D6 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
+<br> [uplabs: Smart Home Page - by BØ](https://www.uplabs.com/posts/smart-home-page-interface)
