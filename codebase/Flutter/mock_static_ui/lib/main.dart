@@ -2,7 +2,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  debugPaintSizeEnabled = true;
+//  debugPaintSizeEnabled = true;
   runApp(new MyApp());
 }
 
@@ -28,49 +28,75 @@ class MyApp extends StatelessWidget {
       ),
     );
 
-    Row buildItemRow(
+    Widget buildItemRow(
         String imgName, String title, String subtitle, bool selected) {
       IconData icon =
           selected ? Icons.radio_button_checked : Icons.radio_button_unchecked;
 
-      return Row(children: [
-        CircleAvatar(
-          backgroundImage: AssetImage('images/$imgName'),
-          radius: 25.0,
-        ),
-        Expanded(
-            child: Container(
-                padding: EdgeInsets.only(bottom: 18.0),
-                decoration: const BoxDecoration(
-                  border: const Border(bottom: BorderSide()),
-                ),
-                child: Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: Column(
-                        children: [Text(title), Text(subtitle)],
-                        crossAxisAlignment: CrossAxisAlignment.start,
+      return Container(
+        margin: EdgeInsets.only(top: 12.0),
+        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              CircleAvatar(
+                backgroundImage: AssetImage('images/$imgName'),
+                radius: 23.0,
+              ),
+            ],
+          ),
+          Expanded(
+              child: Container(
+                  padding: EdgeInsets.fromLTRB(0.0, 0.0, 18.0, 18.0),
+                  margin: EdgeInsets.only(left: 18.0),
+                  decoration: const BoxDecoration(
+                    border: const Border(
+                        bottom: BorderSide(width: 0.5, color: Colors.grey)),
+                  ),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Container(
+                              padding: EdgeInsets.only(bottom: 6.0),
+                              child: Text(
+                                title,
+                                style: TextStyle(
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                            ),
+                            Text(
+                              subtitle,
+                              style: TextStyle(color: Colors.grey),
+                            )
+                          ],
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                        ),
                       ),
-                    ),
-                    Icon(
-                      icon,
-                      color: Colors.teal,
-                    )
-                  ],
-                ))),
-      ]);
+                      Icon(
+                        icon,
+                        color: Colors.teal,
+                      )
+                    ],
+                  ))),
+        ]),
+      );
     }
 
     Widget selectSection = Container(
-      padding: EdgeInsets.fromLTRB(24.0, 9.0, 0.0, 18.0),
+      padding: EdgeInsets.fromLTRB(18.0, 9.0, 0.0, 18.0),
       child: Column(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(bottom: 28.0),
+            margin: EdgeInsets.only(bottom: 20.0),
             child: Text('Select an accessory to add to Vacation Home',
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700)),
           ),
           buildItemRow('avt_kitchen.jpg', 'Kitchen room', "Online", true),
+          buildItemRow('avt_livingroom.jpg', 'Living room', "Online", false),
+          buildItemRow('avt_bedroom.jpg', 'Bedroom room', "Offline", false),
         ],
       ),
     );
@@ -90,7 +116,18 @@ class MyApp extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               captionSection,
-              selectSection
+              selectSection,
+              Container(
+                margin: EdgeInsets.fromLTRB(130.0, 0.0, 130.0, 0.0),
+                child: RaisedButton(
+                  child: Text('SAVE'),
+                  onPressed: () {
+                    print('button pressed');
+                  },
+                  color: Colors.indigo[900],
+                  textColor: Colors.white,
+                ),
+              ),
             ])));
   }
 }

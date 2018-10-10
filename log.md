@@ -7,7 +7,7 @@
 
 **Thoughts:** This latest feature can make the web page works as ViewPager in a super concise way, moreover, it's pure CSS code! [Note: check browser compatibility before using]
 
-![Gif of D1_SnapScroll](./codebase/CSS/screenshots/d1-scroll_snap.gif)
+![Gif of D1_SnapScroll](./screenshots/d1-scroll_snap.gif)
 
 **Link to work:** 
 <br> [D1 - Snappy Scroll](./CSS/D1-SnappyScroll.html)
@@ -68,3 +68,14 @@
 **Link to work:**
 <br> [D6 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
 <br> [uplabs: Smart Home Page - by BØ](https://www.uplabs.com/posts/smart-home-page-interface)
+
+### Day 8: Oct 10, 2018
+
+**Today's Progress:** Finished the remainder of yesterday's project.
+
+**Link to work:**
+<br> [D6 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
+<br> [uplabs: Smart Home Page - by BØ](https://www.uplabs.com/posts/smart-home-page-interface)
+<br>
+<br>
+![ss](./screenshots/ss01.png)
