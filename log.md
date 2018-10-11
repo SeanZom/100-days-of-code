@@ -66,7 +66,7 @@
 **Today's Progress:** Dived into the Stateless Widgets. Re-wrote the example of official Flutter. Afterward, I found an wonderful UI prototype on the Uplabs, and attempted to mock it using Flutter.
 
 **Link to work:**
-<br> [D6 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
+<br> [D7 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
 <br> [uplabs: Smart Home Page - by BØ](https://www.uplabs.com/posts/smart-home-page-interface)
 
 ### Day 8: Oct 10, 2018
@@ -74,8 +74,14 @@
 **Today's Progress:** Finished the remainder of yesterday's project.
 
 **Link to work:**
-<br> [D6 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
+<br> [D8 - Stateless Widget practices](./codebase/Flutter/mock_static_ui)
 <br> [uplabs: Smart Home Page - by BØ](https://www.uplabs.com/posts/smart-home-page-interface)
 <br>
 <br>
 ![ss](./screenshots/ss01.png)
+
+### Day 9: Oct 11, 2018
+
+**Today's Progress:** Started to study lesson 2 of Flutter tutorial about how to make the widget to be interactive. On the way to quiz of building a convertor.
+
+**Link to work:** [D9 - input](./codebase/Flutter/task_06_input)
