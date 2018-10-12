@@ -85,3 +85,10 @@
 **Today's Progress:** Started to study lesson 2 of Flutter tutorial about how to make the widget to be interactive. On the way to quiz of building a convertor.
 
 **Link to work:** [D9 - input](./codebase/Flutter/task_06_input)
+
+
+### Day 10: Oct 12, 2018
+
+**Today's Progress:** Accomplished the rest of the converter app,  learnt many new widgets.
+
+**Link to work:** [D9 - input](./codebase/Flutter/task_06_input)
