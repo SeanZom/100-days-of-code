@@ -92,3 +92,10 @@
 **Today's Progress:** Accomplished the rest of the converter app,  learnt many new widgets.
 
 **Link to work:** [D9 - input](./codebase/Flutter/task_06_input)
+
+
+### Day 11: Oct 13, 2018
+
+**Today's Progress:** Went through 2 sections (Design basics and Images) the Cookbook of Flutter and coded all of these examples by myself.
+
+**Link to work:** [Flutter - Cookbook](https://flutter.io/cookbook/)
