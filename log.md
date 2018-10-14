@@ -99,3 +99,11 @@
 **Today's Progress:** Went through 2 sections (Design basics and Images) the Cookbook of Flutter and coded all of these examples by myself.
 
 **Link to work:** [Flutter - Cookbook](https://flutter.io/cookbook/)
+
+
+### Day 12: Oct 14, 2018
+
+**Today's Progress:** Got into the lists chapter of Flutter Cookbook, and learned the classes chapter of Dart language.
+
+**Link to work:**
+<br> [Dart](https://www.dartlang.org/guides/language/language-tour#initializer-list)
