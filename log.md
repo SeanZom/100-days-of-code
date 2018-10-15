@@ -107,3 +107,9 @@
 
 **Link to work:**
 <br> [Dart](https://www.dartlang.org/guides/language/language-tour#initializer-list)
+
+
+### Day 13: Oct 15, 2018
+
+**Today's Progress:** Continued to learn the classes chapter of Dart language: the constructors, methods, abstract classes, encapsulation, inheritance and mixins...
+Like yesterday, I did some exercises locally, so no code was commited to the repository.
