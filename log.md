@@ -113,3 +113,8 @@
 
 **Today's Progress:** Continued to learn the classes chapter of Dart language: the constructors, methods, abstract classes, encapsulation, inheritance and mixins...
 Like yesterday, I did some exercises locally, so no code was commited to the repository.
+
+
+### Day 14: Oct 16, 2018
+
+**Today's Progress:** Finished navigation & animation chapters of Cookbook. Starting to learn Networking part of Flutter.
