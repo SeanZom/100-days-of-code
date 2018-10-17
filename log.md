@@ -118,3 +118,7 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 ### Day 14: Oct 16, 2018
 
 **Today's Progress:** Finished navigation & animation chapters of Cookbook. Starting to learn Networking part of Flutter.
+
+### Day 15: Oct 17, 2018
+
+**Today's Progress:** Continued with the Cookbook of flutter, and the chapters were networking, persistence and forms. The testing part is the next.
