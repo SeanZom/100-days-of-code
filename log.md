@@ -122,3 +122,12 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 ### Day 15: Oct 17, 2018
 
 **Today's Progress:** Continued with the Cookbook of flutter, and the chapters were networking, persistence and forms. The testing part is the next.
+
+### Day 16~18: Oct 18~20, 2018
+
+**These days' Progress:** Finished the rest of the Cookbook, returned to the Flutter courses of Udacity and accomplished 2 quizzes.
+
+**Link to work:**
+<br> [D17 - backdrop](./codebase/Flutter/task_07_backdrop)
+<br> [D18 - backdrop](./codebase/Flutter/task_08_responsive)
+

@@ -4,12 +4,11 @@
 
 import 'package:flutter/material.dart';
 
+import 'backdrop.dart';
 import 'category.dart';
 import 'category_tile.dart';
 import 'unit.dart';
-import 'backdrop.dart';
 import 'unit_converter.dart';
-
 
 /// Category Route (screen).
 ///
@@ -26,12 +25,8 @@ class CategoryRoute extends StatefulWidget {
 }
 
 class _CategoryRouteState extends State<CategoryRoute> {
-
-  Category _defCategory;
+  Category _defaultCategory;
   Category _currentCategory;
-
-
-  // [Category]
   final _categories = <Category>[];
   static const _categoryNames = <String>[
     'Length',
@@ -82,21 +77,20 @@ class _CategoryRouteState extends State<CategoryRoute> {
   @override
   void initState() {
     super.initState();
-
     for (var i = 0; i < _categoryNames.length; i++) {
-      _categories.add(Category(
+      var category = Category(
         name: _categoryNames[i],
         color: _baseColors[i],
         iconLocation: Icons.cake,
         units: _retrieveUnitList(_categoryNames[i]),
-      ));
+      );
       if (i == 0) {
-        _defCategory = _categories[i];
+        _defaultCategory = category;
       }
+      _categories.add(category);
     }
   }
 
-  // TODO: Fill out this function
   /// Function to call when a [Category] is tapped.
   void _onCategoryTap(Category category) {
     setState(() {
@@ -104,19 +98,30 @@ class _CategoryRouteState extends State<CategoryRoute> {
     });
   }
 
-  /// Makes the correct number of rows for the list view.
-  ///
-  /// For portrait, we use a [ListView].
-  Widget _buildCategoryWidgets() {
-    return ListView.builder(
-      itemBuilder: (BuildContext context, int index) {
-        return CategoryTile(
-          category: _categories[index],
-          onTap: _onCategoryTap,
-        );
-      },
-      itemCount: _categories.length,
-    );
+  Widget _buildCategoryWidgets(BuildContext context) {
+    if (MediaQuery.of(context).orientation == Orientation.portrait) {
+      return ListView.builder(
+        itemBuilder: (BuildContext context, int index) {
+          return CategoryTile(
+            category: _categories[index],
+            onTap: _onCategoryTap,
+          );
+        },
+        itemCount: _categories.length,
+      );
+    } else {
+      return GridView.count(
+        crossAxisCount: 2,
+        children: List.generate(_categories.length, (index) {
+          return CategoryTile(
+            category: _categories[index],
+            onTap: _onCategoryTap,
+          );
+        },
+        ),
+        childAspectRatio: 3.0,
+      );  
+    }
   }
 
   /// Returns a list of mock [Unit]s.
@@ -132,24 +137,24 @@ class _CategoryRouteState extends State<CategoryRoute> {
 
   @override
   Widget build(BuildContext context) {
-
     final listView = Padding(
       padding: EdgeInsets.only(
         left: 8.0,
         right: 8.0,
         bottom: 48.0,
       ),
-      child: _buildCategoryWidgets(),
+      child: _buildCategoryWidgets(context),
     );
 
-    final backdrop = Backdrop(
-        currentCategory: _currentCategory ?? _defCategory,
-        frontPanel: _currentCategory == null ? UnitConverter(category: _defCategory) : UnitConverter(category: _currentCategory),
-        backPanel: listView,
-        frontTitle: Text('Unit Converter'),
-        backTitle: Text('Select a Category')
+    return Backdrop(
+      currentCategory:
+          _currentCategory == null ? _defaultCategory : _currentCategory,
+      frontPanel: _currentCategory == null
+          ? UnitConverter(category: _defaultCategory)
+          : UnitConverter(category: _currentCategory),
+      backPanel: listView,
+      frontTitle: Text('Unit Converter'),
+      backTitle: Text('Select a Category'),
     );
-
-    return backdrop;
   }
 }
