@@ -131,3 +131,11 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 <br> [D17 - backdrop](./codebase/Flutter/task_07_backdrop)
 <br> [D18 - backdrop](./codebase/Flutter/task_08_responsive)
 
+### Day 19~20: Oct 21~22, 2018
+
+**These days' Progress:** Continuing the Flutter courses. Learned about the assets and api chapters. Working on the async programming of Dart.
+
+**Link to work:**
+<br> [D19 - units](./codebase/Flutter/task_09_units)
+<br> [D19 - icons & fonts](./codebase/Flutter/task_10_icons_fonts)
+<br> [D20 - api](./codebase/Flutter/task_11_api)
