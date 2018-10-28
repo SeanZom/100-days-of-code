@@ -139,3 +139,8 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 <br> [D19 - units](./codebase/Flutter/task_09_units)
 <br> [D19 - icons & fonts](./codebase/Flutter/task_10_icons_fonts)
 <br> [D20 - api](./codebase/Flutter/task_11_api)
+
+
+### Day 21~26: Oct 23~28, 2018
+
+**These days' Progress:** Kept learning from the official document. Read a lot of articles of flutter and watched some videos of flutter on Youtube. I've started to rewrite my android project in Flutter, and finished the UI and part of basic functions of the login page and reset password page.
