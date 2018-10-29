@@ -144,3 +144,12 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 ### Day 21~26: Oct 23~28, 2018
 
 **These days' Progress:** Kept learning from the official document. Read a lot of articles of flutter and watched some videos of flutter on Youtube. I've started to rewrite my android project in Flutter, and finished the UI and part of basic functions of the login page and reset password page.
+
+
+### Day 27: Oct 29, 2018
+
+**Today's Progress:** 
+<br>Built app UI of main page: 
+<br>1. AppBar
+<br>2. Drawer
+<br>3. Dropdown menu
