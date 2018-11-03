@@ -153,3 +153,21 @@ Like yesterday, I did some exercises locally, so no code was commited to the rep
 <br>1. AppBar
 <br>2. Drawer
 <br>3. Dropdown menu
+
+
+### Day 28~30: Oct 30 ~ Nov 1, 2018
+
+**These days' Progress:**
+<br> 1. Main page UI of list item
+<br> 2. Networking: HTTP request, JSON and serialization
+
+### Day 31: Nov 2, 2018
+
+**Today's Progress:**
+<br> Networking
+<br> Dart syntax: variable type 
+
+### Day 32: Nov 3, 2018
+
+**Today's Progress:**
+<br> Dart syntax: Types of effective dart chapter
